@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/horror.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<style>
+  p{font-family: 'Indie Flower', cursive;}
+h1,h3,h5,h2{font-family: 'Lobster', cursive;}
+   	.a{
+		background-color: #0000009c;
+	  }
+	  .navbar-nav .nav-item .nav-link
+	  {
+	  	padding: 15px;
+	  	color: #fff;
+	  	font-weight: bolder;
+	  	font-size: 18px;
+	  	position:relative;
+	  	left:210px;
+	  }
+	  .mob-logo{
+	  	display: none;
+	  }
+	  @media(max-width:700px)
+	  {
+	  	.mob-logo{
+	  		display: block;
+	  	}
+	  	.web-logo{
+	  		display:none;
+	  	}
+	  	.a{
+	  		background-color: #0000009c;
+	  	}
+	  	.navbar-nav .nav-item .nav-link
+	    {
+	  	  position:static !important;
+	    }
+	  }
+	  .carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 34%;
+    left: 125px;
+  }
+   h2{
+    font-size: 50px;
+    font-weight: bold;
+  } 	
+   </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark a fixed-top">
+	        
+	        <a href="" class="navbar-brand">
+			  <img  class="web-logo" src="img/horr_logo1.jpg" width="75px" >
+
+			  <img class="mob-logo" src="img/horr_logo.jpg" width="95px">
+			</a>
+
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+
+            <span class="navbar-toggler-icon"></span>
+   
+    </button><!--end button-->
+      <div class="collapse navbar-collapse text-center" id="a"><!--start-->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="index.html" class="nav-link"><h5>Home</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="about.html" class="nav-link"><h5>About</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="Challenge.html" class="nav-link"><h5>Scary Challenges</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="place.html" class="nav-link"><h5>Scary Places</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="movie.html" class="nav-link"><h5>Scary Movies</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="share.html" class="nav-link"><h5>Share Experience</h5></a>
+			</li><!--end-->
+			<li class="nav-item">
+				<a href="picture.html" class="nav-link"><h5>Scary Pictures</h5></a>
+			</li><!--end-->	
+			<li class="nav-item">
+				<a href="video.html" class="nav-link"><h5>Scary Videos</h5></a>
+			</li><!--end-->	
+		</ul>
+	   </div><!--end div of ul-->		
+	 </nav><!--end nav-->
+	 <div class="carousel slide" data-ride="carousel" id="myslide">
+
+  <div class="carousel-inner">
+
+       <div class="carousel-item active" data-interval="4000">
+
+           <img  src="img/place1.jpg" alt="First slide" class="img-fluid" style="width:100%;height:500px;">
+      
+           
+       </div>
+
+         <div class="carousel-item">
+           <img  src="img/place10.jpg" alt="First slide" class="img-fluid" style="width:100%;height:500px;">
+         </div>
+        <div class="carousel-item">
+           <img  src="img/place8.jpg" alt="First slide" class="img-fluid" style="width:100%;height:500px;">
+        </div>        
+
+
+  </div><!-- end  carousel-inner-->
+  <ul class="carousel-indicators">
+     <li data-target="#myslide" data-slide-to="0" class="active"></li>
+     <li data-target="#myslide" data-slide-to="1" class=""></li>
+     <li data-target="#myslide" data-slide-to="2" class=""></li>
+  </ul>
+
+  <a href="#myslide" data-slide="prev" class="carousel-control-prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+  
+
+
+  <a href="#myslide" data-slide="next" class="carousel-control-next">
+       <span class="carousel-control-next-icon"></span>
+  </a>
+</div><!--  carousel slide end-->
+
+
+
+	 <div class="container-fluid" style="padding-top: 30px;padding-bottom: 40px;">
+	 	<center><h1 class="text-danger">TOP MOST HAUNTED PLACES IN INDIA</h1><br></center>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<h3><span class="text-danger">5.</span> <span class="text-success">Dumas Beach, Surat, Gujarat</span></h3><br>
+                <img  style="box-shadow: 0px 0px 4px 1px grey;" src="img/place5.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">This black-sand beach in Gujarat was once an important Hindu cremation ground, and it is this history that gives it an eerie edge. The cheery morning atmosphere fades with the setting sun, and by night local people avoid Dumas Beach as much as possible. From spooky shrieks to whispers, people have reportedly heard haunting sounds coming from Dumas, said to be the spirits of tormented souls.</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14890.618557110556!2d72.7031098751761!3d21.086451624371016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0533302a63a7f%3A0x6d86e327f98bb542!2sDumas%20Beach!5e0!3m2!1sen!2sin!4v1596117377739!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<br><br>
+	 			<h3><span class="text-danger">6.</span> <span class="text-success">Jatinga - Assam</span></h3><br>
+                <img  style="box-shadow: 0px 0px 4px 1px grey;" src="img/place6.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">Assam is often associated with mysteries and mythical tales and the hill village of Jatinga is just another page in the book of Assam's unsolved puzzles. A sleepy hamlet in the North Cachar Hills (a district in Assam), Jatinga is located at a distance of 9 kms from Haflong, the district headquarters. Take a bus ride to Haflong from Guwahati and from there on you can take local conveyance to reach this mystic village. The most bizarre phenomenon that Jatinga witnesses, is the annual mass bird suicide which is yet to find any conclusive scientific explanation. From September to November every year, hundreds of birds commit mass suicide just after sunset - they move down from the sky, plunging to their deaths by crashing into buildings and trees. One possible reason behind this is the theory that the birds get disoriented by the late monsoon season amid wind and dense fog.
+</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7224.309247789683!2d93.01487799709706!3d25.130462785393647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374fa69e528767df%3A0x312b3278379a21b2!2sJatinga%2C%20Assam!5e0!3m2!1sen!2sin!4v1596117554070!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<br><br>
+	 			<h3><span class="text-danger">7.</span> <span class="text-success">Delhi Cantonment, Delhi</span></h3><br>
+                <img  style="box-shadow: 1px 3px 4px 1px grey;" src="img/place7.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">India's capital city of New Delhi has its own share of ghosts and ghost stories! Delhi is well connected with other parts of the country via road-links, rail networks and airways. Therefore travellers do not face many hassles in an effort to meet Delhi's most famous ghost or more appropriately 'ghostess'! The area around Delhi Cantt is said to be haunted by a vengeful spirit of a lady, clad in white dress, who asks motorists for lift and then suddenly disappears!
+</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56049.22707857658!2d77.08794914204438!3d28.597475980291044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1cea3e56dd05%3A0xb4616dffb2450129!2sDelhi%20Cantonment%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1596118256912!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<br><br>
+	 			<h3><span class="text-danger">8.</span> <span class="text-success">Kuldhara Village, Rajasthan</span></h3><br>
+                <img  style="box-shadow: 1px 3px 4px 1px grey;" src="img/place8.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">If you are wondering what forced an entire village to do so, heres the reason: The story involves a brutal prime minister, Salim Singh, who was rumoured to be even more powerful than the local king he served. Salim Singh (who was also called Zalim Singh for the brutalities he committed) was also infamous for debauchery. His tax collection methods were not fair and citizens were fed up with his ways. One fine day, the roving eye of Salim Singh fell on the beautiful daughter of Kundhara’s village chief. So mesmerised was he with her beauty that he declared his intentions to marry her! The Paliwal Brahmins were horrified by the proposal but were no match for the powerful prime minister who, by now, had threatened to levy heavier taxes on the villagers. Not having much of a choice, the villagers decided to pack their belongings and leave the village. Overnight!
+
+To this day, no one really knows where the villagers went and settled after fleeing from Kuldhara but the question arises why havent others come and settled in this already established village? And this is where things get spooky.
+
+According to the legend, the people of Kuldhara cursed the place as they left which prevented anyone from settling here. Since then, the village lies abandoned. To really test if Kuldhara is haunted, some people from Delhis Paranormal Society stayed here one night geared up with their equipment to record any paranormal activity.
+
+After spending 12 hours here, not only did they record unusual activity on their devices suggesting the presence of spirits in the area, some of them also spotted shadowy figures in the night and were tapped on their shoulders by someone when no one was really around.
+
+</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28487.67831139325!2d70.7805025328858!3d26.80940896771932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3947c79b6d20b32d%3A0xb4212d9c2bdae758!2sKuldhara%2C%20Rajasthan%20345001!5e0!3m2!1sen!2sin!4v1596118018869!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+	 </div>
+    <div class="container">
+	 <ul class="pagination pagination-sm">
+			<li class="page-item"><a href="index.html" class="page-link">Previous</a>
+			</li>
+			<li class="page-item"><a href="place.html" class="page-link">1</a>
+			</li>
+			<li class="page-item active"><a href="place2.html" class="page-link">2</a>
+			</li>
+			<li class="page-item"><a href="place3.html" class="page-link">Last</a>
+			</li>
+		</ul>
+	</div>
+
+
+	 <!-- footer start -->
+  <div class="bg-dark">
+    <div class="container" style="color: white;">
+      <br><br>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/horr_logo1.jpg" style="height: 130px; width: 130px;"><br><br>
+        </div>
+        <div class="col-md-3">
+          <h4 style="font-family: serif;">Get Spooked With us</h4>
+          <h6><a href="Challenge.html" style="color: #ff9607;  text-decoration: none;">Scary Challenges</a></h6>
+          <h6><a href="movie.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Movies</a></h6>
+          <h6 style="color: #ff9607;">CONTACT US</h6>
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 30px;"></i></a>&nbsp;&nbsp;
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 30px;"></i></a>&nbsp;&nbsp;
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 30px;"></i></a>
+        </div>
+        <div class="col-md-3">
+          <br>
+          <h6><a href="place.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Places</a></h6>
+          <h6><a href="picture.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Pictures</a></h6>
+          <h6><a href="video.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Videos</a></h6>
+          <h6><a href="share.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Share Experience</a></h6>
+          <h6><a href="about.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">About Us</a></h6>
+        </div>
+        <!-- <div class="col-md-3">
+          <br>
+          <h6><a href="" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">ABOUT US</a></h6>
+          
+        </div> -->
+      </div>
+      <h6 style=" font-weight: 200; font-size: 15px;" >All rights reserved@2020</h6><br>
+    </div>
+  </div>
+  <!-- footer end -->
+
+    <div class="container-fluid" style="background-color: #000;"><!--start endfoot-->
+      <div class="row" style="display:block;">
+      <h6 class="text-center endfoot">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG
+<br>COPYRIGHT © 2020</h6>
+      </div>
+    </div><!--end of endfoot-->
+
+
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/horror.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<style>
+  p{font-family: 'Indie Flower', cursive;}
+h1,h3,h5,h2{font-family: 'Lobster', cursive;}
+   	.a{
+		background-color: #0000009c;
+	  }
+	  .navbar-nav .nav-item .nav-link
+	  {
+	  	padding: 15px;
+	  	color: #fff;
+	  	font-weight: bolder;
+	  	font-size: 18px;
+	  	position:relative;
+	  	left:210px;
+	  }
+	  .mob-logo{
+	  	display: none;
+	  }
+	  @media(max-width:700px)
+	  {
+	  	.mob-logo{
+	  		display: block;
+	  	}
+	  	.web-logo{
+	  		display:none;
+	  	}
+	  	.a{
+	  		background-color: #0000009c;
+	  	}
+	  	.navbar-nav .nav-item .nav-link
+	    {
+	  	  position:static !important;
+	    }
+	  }
+	  .carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 34%;
+    left: 125px;
+  }
+   h2{
+    font-size: 50px;
+    font-weight: bold;
+  } 	
+   </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark a fixed-top">
+	        
+	        <a href="" class="navbar-brand">
+			  <img  class="web-logo" src="img/horr_logo1.jpg" width="75px" >
+
+			  <img class="mob-logo" src="img/horr_logo.jpg" width="95px">
+			</a>
+
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+
+            <span class="navbar-toggler-icon"></span>
+   
+    </button><!--end button-->
+      <div class="collapse navbar-collapse text-center" id="a"><!--start-->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="index.html" class="nav-link"><h5>Home</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="about.html" class="nav-link"><h5>About</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="Challenge.html" class="nav-link"><h5>Scary Challenges</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="place.html" class="nav-link"><h5>Scary Places</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="movie.html" class="nav-link"><h5>Scary Movies</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="share.html" class="nav-link"><h5>Share Experience</h5></a>
+			</li><!--end-->
+			<li class="nav-item">
+				<a href="picture.html" class="nav-link"><h5>Scary Pictures</h5></a>
+			</li><!--end-->	
+			<li class="nav-item">
+				<a href="video.html" class="nav-link"><h5>Scary Videos</h5></a>
+			</li><!--end-->	
+		</ul>
+	   </div><!--end div of ul-->		
+	 </nav><!--end nav-->
+	 <div class="carousel slide" data-ride="carousel" id="myslide">
+
+  <div class="carousel-inner">
+
+       <div class="carousel-item active" data-interval="4000">
+
+           <img  src="img/place1.jpg" alt="First slide" class="img-fluid" style="width:100%;height:500px;">
+      
+           
+       </div>
+
+         <div class="carousel-item">
+           <img  src="img/place10.jpg" alt="First slide" class="img-fluid" style="width:100%;height:500px;">
+         </div>
+        <div class="carousel-item">
+           <img  src="img/place8.jpg" alt="First slide" class="img-fluid" style="width:100%;height:500px;">
+        </div>        
+
+
+  </div><!-- end  carousel-inner-->
+  <ul class="carousel-indicators">
+     <li data-target="#myslide" data-slide-to="0" class="active"></li>
+     <li data-target="#myslide" data-slide-to="1" class=""></li>
+     <li data-target="#myslide" data-slide-to="2" class=""></li>
+  </ul>
+
+  <a href="#myslide" data-slide="prev" class="carousel-control-prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+  
+
+
+  <a href="#myslide" data-slide="next" class="carousel-control-next">
+       <span class="carousel-control-next-icon"></span>
+  </a>
+</div><!--  carousel slide end-->
+
+
+
+	 <div class="container-fluid" style="padding-top: 30px;padding-bottom: 40px;">
+	 	<center><h1 class="text-danger">TOP MOST HAUNTED PLACES IN INDIA</h1><br></center>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<h3><span class="text-danger">9.</span> <span class="text-success">Sanjay Van, Delhi</span></h3><br>
+                <img  style="box-shadow: 0px 0px 4px 1px grey;" src="img/place9.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">Have you been to Sanjay van located in Delhi? You would have explored the forest if you have. But do you have any idea about the white lady seen by the people visiting it who disappears in a fraction of seconds? Well, if not, do make a visit if you dare to and witness her yourself.</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14021.022594228261!2d77.17032962734156!3d28.532034617941605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1de3be903ec1%3A0xcc7774630326a494!2sSanjay%20Van!5e0!3m2!1sen!2sin!4v1596118521496!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<br><br>
+	 			<h3><span class="text-danger">10.</span> <span class="text-success">GP Block, Meerut</span></h3><br>
+                <img  style="box-shadow: 0px 0px 4px 1px grey;" src="img/place10.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">Ranked among the North India’s most haunted places, GP Block in Meerut is known for its numerous ghosts. Several locals have spotted ghosts of girls in red dresses and ghosts of men drinking right outside the building though none of the witnesses could figure out who these people really were. The ghosts disappeared whenever any brave-heart dared to go close to them.</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3489.475630722846!2d77.69888315086352!3d29.002905682186178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c65084110adf9%3A0xd101c14c97aece82!2sGP%20Block!5e0!3m2!1sen!2sin!4v1596118665047!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<br><br>
+	 			<h3><span class="text-danger">11.</span> <span class="text-success">The Karkardooma Coart, Delhi</span></h3><br>
+                <img  style="box-shadow: 1px 3px 4px 1px grey;" src="img/place11.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">Many lawyers at Karkardooma Court Complex have reported paranormal activities around them. Of all the haunted places in Delhi, this one is really creepy and unexpected. Vigilance camera installed in the court have recorded the shutting and opening of doors, files being plucked off drawers, blinkering lights, the appearance of a hazy figure through walls, and even the dislocation of chairs.</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14811.59267916654!2d77.29552148269569!3d28.648185537340588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb6784f730ff%3A0x6a15eb419054c404!2sDistrict%20Court%20Karkardooma!5e0!3m2!1sen!2sin!4v1596119988283!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<br><br>
+	 			<h3><span class="text-danger">12.</span> <span class="text-success">Bhuli Bhatiyari Mahal, Delhi</span></h3><br>
+                <img  style="box-shadow: 1px 3px 4px 1px grey;" src="img/place12.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">This structure is claimed to be the most haunted place in Delhi. There are no metal gates to be locked. The only thing that guards this massive structure is a note written at entrance, which tells people to not to come near this place after sunset.
+
+I had an unofficial chat with one of the govt employees associated with this place. He told me that no security guard deployed by govt survived his job for more than 2-3 days. He added, “I don’t believe in all this, but there is something suspicious & scary here”.</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5711100463277!2d77.19672165085595!3d28.642613682327664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5e43465dd7%3A0xd629aaba74c3852!2sBhuli%20Bhatiyari%20Ka%20Mahal!5e0!3m2!1sen!2sin!4v1596119847024!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+	 </div>
+    <div class="container">
+	 <ul class="pagination pagination-lg">
+			<li class="page-item"><a href="index.html" class="page-link">Previous</a>
+			</li>
+			<li class="page-item"><a href="place.html" class="page-link">1</a>
+			</li>
+			<li class="page-item"><a href="place2.html" class="page-link">2</a>
+			</li>
+			<li class="page-item active"><a href="place3.html" class="page-link">Last</a>
+			</li>
+		</ul>
+	</div>
+
+
+	 <!-- footer start -->
+  <div class="bg-dark">
+    <div class="container" style="color: white;">
+      <br><br>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/horr_logo1.jpg" style="height: 130px; width: 130px;"><br><br>
+        </div>
+        <div class="col-md-3">
+          <h4 style="font-family: serif;">Get Spooked With us</h4>
+          <h6><a href="Challenge.html" style="color: #ff9607;  text-decoration: none;">Scary Challenges</a></h6>
+          <h6><a href="movie.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Movies</a></h6>
+          <h6 style="color: #ff9607;">CONTACT US</h6>
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 30px;"></i></a>&nbsp;&nbsp;
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 30px;"></i></a>&nbsp;&nbsp;
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 30px;"></i></a>
+        </div>
+        <div class="col-md-3">
+          <br>
+          <h6><a href="place.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Places</a></h6>
+          <h6><a href="picture.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Pictures</a></h6>
+          <h6><a href="video.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Videos</a></h6>
+          <h6><a href="share.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Share Experience</a></h6>
+          <h6><a href="about.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">About Us</a></h6>
+        </div>
+        <!-- <div class="col-md-3">
+          <br>
+          <h6><a href="" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">ABOUT US</a></h6>
+          
+        </div> -->
+      </div>
+      <h6 style=" font-weight: 200; font-size: 15px;" >All rights reserved@2020</h6><br>
+    </div>
+  </div>
+  <!-- footer end -->
+
+    <div class="container-fluid" style="background-color: #000;"><!--start endfoot-->
+      <div class="row" style="display:block;">
+      <h6 class="text-center endfoot">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG
+<br>COPYRIGHT © 2020</h6>
+      </div>
+    </div><!--end of endfoot-->
+
+
+</body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/horror.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<style>
+  p{font-family: 'Indie Flower', cursive;}
+h1,h3,h5,h2{font-family: 'Lobster', cursive;}
+   	.a{
+		background-color: #0000009c;
+	  }
+	  .navbar-nav .nav-item .nav-link
+	  {
+	  	padding: 15px;
+	  	color: #fff;
+	  	font-weight: bolder;
+	  	font-size: 18px;
+	  	position:relative;
+	  	left:210px;
+	  }
+	  .mob-logo{
+	  	display: none;
+	  }
+	  @media(max-width:700px)
+	  {
+	  	.mob-logo{
+	  		display: block;
+	  	}
+	  	.web-logo{
+	  		display:none;
+	  	}
+	  	.a{
+	  		background-color: #0000009c;
+	  	}
+	  	.navbar-nav .nav-item .nav-link
+	    {
+	  	  position:static !important;
+	    }
+	  }
+	  .carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 34%;
+    left: 125px;
+  }
+   h2{
+    font-size: 50px;
+    font-weight: bold;
+  } 	
+   </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark a fixed-top">
+	        
+	        <a href="" class="navbar-brand">
+			  <img  class="web-logo" src="img/horr_logo1.jpg" width="75px" >
+
+			  <img class="mob-logo" src="img/horr_logo.jpg" width="95px">
+			</a>
+
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+
+            <span class="navbar-toggler-icon"></span>
+   
+    </button><!--end button-->
+      <div class="collapse navbar-collapse text-center" id="a"><!--start-->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="index.html" class="nav-link"><h5>Home</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="about.html" class="nav-link"><h5>About</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="Challenge.html" class="nav-link"><h5>Scary Challenges</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="place.html" class="nav-link"><h5>Scary Places</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="movie.html" class="nav-link"><h5>Scary Movies</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="share.html" class="nav-link"><h5>Share Experience</h5></a>
+			</li><!--end-->
+			<li class="nav-item">
+				<a href="picture.html" class="nav-link"><h5>Scary Pictures</h5></a>
+			</li><!--end-->	
+			<li class="nav-item">
+				<a href="video.html" class="nav-link"><h5>Scary Videos</h5></a>
+			</li><!--end-->	
+		</ul>
+	   </div><!--end div of ul-->		
+	 </nav><!--end nav-->
+	 
+	 <div class="carousel slide" data-ride="carousel" id="myslide">
+
+  <div class="carousel-inner">
+
+       <div class="carousel-item active" data-interval="4000">
+
+           <img  src="img/place1.jpg" alt="First slide" class="img-fluid" style="width:100%;height:500px;">
+      
+           
+       </div>
+
+         <div class="carousel-item">
+           <img  src="img/place10.jpg" alt="First slide" class="img-fluid" style="width:100%;height:500px;">
+         </div>
+        <div class="carousel-item">
+           <img  src="img/place8.jpg" alt="First slide" class="img-fluid" style="width:100%;height:500px;">
+        </div>        
+
+
+  </div><!-- end  carousel-inner-->
+  <ul class="carousel-indicators">
+     <li data-target="#myslide" data-slide-to="0" class="active"></li>
+     <li data-target="#myslide" data-slide-to="1" class=""></li>
+     <li data-target="#myslide" data-slide-to="2" class=""></li>
+  </ul>
+
+  <a href="#myslide" data-slide="prev" class="carousel-control-prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+  
+
+
+  <a href="#myslide" data-slide="next" class="carousel-control-next">
+       <span class="carousel-control-next-icon"></span>
+  </a>
+</div><!--  carousel slide end-->
+
+
+	 <div class="container-fluid" style="padding-top: 30px;padding-bottom: 40px;">
+	 	<center><h1 class="text-danger">TOP MOST HAUNTED PLACES IN INDIA</h1><br></center>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<h3><span class="text-danger">1.</span> <span class="text-success">Bhanghar Fort, Rajasthan</span></h3><br>
+                <img  style="box-shadow: 0px 0px 4px 1px grey;" src="img/place1.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">Bhangarh is perhaps one of the most haunted places in India. It is in Rajasthan and has been declared an unsafe place to visit at night even by the government. The Archaeological Survey of India or ASI body has even put up a sign outside Bhangarh Fort to warn tourists and locals alike to not enter its premises after sunset and before sunrise. Even though the government may not openly acknowledge the presence of any supernatural power here, the board says it all and is enough proof that there is something that should not be played with.
+
+Bhangarh Fort in its heyday was one of the architectural marvels of the country. It was built in 1573 by Man Singh I for his grandson Madho Singh I. But it was named after his grandfather Bhan Singh, hence the name Bhangarh.
+
+Dotted with temples, havelis and palaces, Bhangarh was a flourishing kingdom. But it soon saw its downfall and since then, it lies in ruins, abandoned with nothing but spirits roaming in the fort.
+
+Where is Bhangarh Fort?
+
+Bhangarh Fort is in the Alwar district in Rajasthan. You can visit the fort until 6 pm every day.
+</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 0px 0px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.9013849314592!2d76.28397665082478!3d27.096405182965636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396d8522c8a74f25%3A0x59400bd073d17528!2sBhangarh%20Fort!5e0!3m2!1sen!2sin!4v1596108714553!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<br><br>
+	 			<h3><span class="text-danger">2.</span> <span class="text-success">Savoy Hotel, Mussorie</span></h3><br>
+                <img  style="box-shadow: 0px 0px 4px 1px grey;" src="img/place2.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">This historic luxury hotel is perhaps the most famous haunted place in India. It is said that the hallways are haunted by the ghost of Lady Garnett-Orme who died here under mysterious circumstances in 1911. The hotel and her story have inspired many writers over the years, including Agatha Christie’s The Mysterious Affair at Styles and Ruskin Bond’s In A Crystal Ball — A Mussoorie Mystery.</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.1550060112054!2d78.06020285089475!3d30.460047381643424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d12029615569%3A0xf6842516d4258635!2sWelcomhotel%20The%20Savoy!5e0!3m2!1sen!2sin!4v1596111910676!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<br><br>
+	 			<h3><span class="text-danger">3.</span> <span class="text-success">Shaniwar Wada, Pune</span></h3><br>
+                <img  style="box-shadow: 1px 3px 4px 1px grey;" src="img/place3.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">The story involves Peshwa Narayanrao who was all of 18 years when he came into power. Among those who were jealous of Narayanrao was his aunt Anandibai, wife of the regent Raghunathrao, who wanted to be queen but she couldn’t as long as he was alive. So, she successfully brainwashed Raghunathrao into issuing an arrest warrant against the young Peshwa. In what is a well-documented tale in Maharashtras popular culture, she blotted out the warrant in a way that it read as an execution order. Armed with the document, the guards attacked the young prince who fled his chambers and ran towards his uncle begging his life to be spared. Unfortunately, before his uncle could save him, Narayanrao was assassinated, by some accounts, right before the eyes of his hapless uncle who till that very moment believed that he had merely issued an arrest warrant against his nephew. It is believed that the spirit of young Narayanrao still haunts the fort and his cries can be heard on a full moon night. His last words, ‘Kaka mala vachva’ or ‘Uncle, save me’ are sometimes heard in the middle of the night by people who work here. Tourists might not find anything spooky during the day, but the night gives Shaniwar Wada an eerie feel.</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map" style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2089180429666!2d73.8531242506813!3d18.51945888734783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c065144d8edf%3A0x3703b8095866c54b!2sShaniwar%20Wada!5e0!3m2!1sen!2sin!4v1596112528297!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<br><br>
+	 			<h3><span class="text-danger">4.</span> <span class="text-success">Mukesh Mills, Mumbai</span></h3><br>
+                <img  style="box-shadow: 1px 3px 4px 1px grey;" src="img/place4.jpg" class="img-fluid d-block w-100">
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+                <br>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 		<p style="text-align: justify;">Mukesh Mills is a popular location for TV serials and Bollywood films. Located in Mumbai’s tony Colaba area Mukesh Mills takes you back in time with its dilapidated structure and warehouse-like look. But the rundown structure is sure to send shivers down your spine not just with its interiors but because people who have worked here have had some unusual experiences here.
+
+Mukesh Mills was once a thriving mill when it opened its doors in the 1870s. Its location right next to the Arabian Sea made it apt for ships to dock here for loading and unloading of cotton and yarn. The mill, however, went out of business in the 1980s when the workers struck work. The mill was later shut and then an unexplained fire broke out in Mukesh Mills which left it in the condition it now is.</p>
+	 	    </div>
+	 	    <div class="col-md-2"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-2"></div>
+	 		<div class="col-md-8">
+	 			<iframe class="map"  style="box-shadow: 1px 3px 4px 1px grey;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.42747753051!2d72.82523025068679!3d18.912463587119053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1961bcfb8ad%3A0xab838b457cf67fce!2sMukesh%20Textile%20Mills%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1596114246093!5m2!1sen!2sin" width="997" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	 			<hr>
+	 		</div>
+	 		<div class="col-md-2"></div>
+        </div>
+
+	 </div>
+    <div class="container-fluid" style="background:skyblue;padding-top: 20px;padding-bottom:10px;">
+	 <ul class="pagination pagination-lg">
+			<li class="page-item"><a href="index.html" class="page-link">Previous</a>
+			</li>
+			<li class="page-item active"><a href="place.html" class="page-link">1</a>
+			</li>
+			<li class="page-item"><a href="place2.html" class="page-link">2</a>
+			</li>
+			<li class="page-item"><a href="place3.html" class="page-link">Last</a>
+			</li>
+		</ul>
+	</div>
+
+
+	 <!-- footer start -->
+  <div class="bg-dark">
+    <div class="container" style="color: white;">
+      <br><br>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/horr_logo1.jpg" style="height: 130px; width: 130px;"><br><br>
+        </div>
+        <div class="col-md-3">
+          <h4 style="font-family: serif;">Get Spooked With us</h4>
+          <h6><a href="Challenge.html" style="color: #ff9607;  text-decoration: none;">Scary Challenges</a></h6>
+          <h6><a href="movie.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Movies</a></h6>
+          <h6 style="color: #ff9607;">CONTACT US</h6>
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 30px;"></i></a>&nbsp;&nbsp;
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 30px;"></i></a>&nbsp;&nbsp;
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 30px;"></i></a>
+        </div>
+        <div class="col-md-3">
+          <br>
+          <h6><a href="place.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Places</a></h6>
+          <h6><a href="picture.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Pictures</a></h6>
+          <h6><a href="video.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Videos</a></h6>
+          <h6><a href="share.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Share Experience</a></h6>
+          <h6><a href="about.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">About Us</a></h6>
+        </div>
+        <!-- <div class="col-md-3">
+          <br>
+          <h6><a href="" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">ABOUT US</a></h6>
+          
+        </div> -->
+      </div>
+      <h6 style=" font-weight: 200; font-size: 15px;" >All rights reserved@2020</h6><br>
+    </div>
+  </div>
+  <!-- footer end -->
+
+    <div class="container-fluid" style="background-color: #000;"><!--start endfoot-->
+      <div class="row" style="display:block;">
+      <h6 class="text-center endfoot">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG
+<br>COPYRIGHT © 2020</h6>
+      </div>
+    </div><!--end of endfoot-->
+
+
+</body>
+</html>

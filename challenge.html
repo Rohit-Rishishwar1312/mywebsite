@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/horror.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<style>
+  p{font-family: 'Indie Flower', cursive;}
+h1,h3,h5,h2{font-family: 'Lobster', cursive;}
+   	.a{
+		background-color: #0000009c;
+	  }
+	  .navbar-nav .nav-item .nav-link
+	  {
+	  	padding: 15px;
+	  	color: #fff;
+	  	font-weight: bolder;
+	  	font-size: 18px;
+	  	position:relative;
+	  	left:210px;
+	  }
+	  .mob-logo{
+	  	display: none;
+	  }
+	  @media(max-width:700px)
+	  {
+	  	.mob-logo{
+	  		display: block;
+	  	}
+	  	.web-logo{
+	  		display:none;
+	  	}
+	  	.a{
+	  		background-color: #0000009c;
+	  	}
+	  	.navbar-nav .nav-item .nav-link
+	    {
+	  	  position:static !important;
+	    }
+	  }
+	  .carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 34%;
+    left: 125px;
+  }
+   h2{
+    font-size: 50px;
+    font-weight: bold;
+  } 	
+   </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark a fixed-top">
+	        
+	        <a href="" class="navbar-brand">
+			  <img  class="web-logo" src="img/horr_logo1.jpg" width="75px" >
+
+			  <img class="mob-logo" src="img/horr_logo.jpg" width="95px">
+			</a>
+
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+
+            <span class="navbar-toggler-icon"></span>
+   
+    </button><!--end button-->
+      <div class="collapse navbar-collapse text-center" id="a"><!--start-->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="index.html" class="nav-link"><h5>Home</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="about.html" class="nav-link"><h5>About</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="challenge.html" class="nav-link"><h5>Scary Challenges</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="place.html" class="nav-link"><h5>Scary Places</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="movie.html" class="nav-link"><h5>Scary Movies</h5></a>
+			</li>
+			<li class="nav-item">
+				<a href="share.html" class="nav-link"><h5>Share Experience</h5></a>
+			</li><!--end-->
+			<li class="nav-item">
+				<a href="picture.html" class="nav-link"><h5>Scary Pictures</h5></a>
+			</li><!--end-->	
+			<li class="nav-item">
+				<a href="video.html" class="nav-link"><h5>Scary Videos</h5></a>
+			</li><!--end-->	
+		</ul>
+	   </div><!--end div of ul-->		
+	 </nav><!--end nav-->
+	 <div class="carousel slide" data-ride="carousel" id="myslide">
+
+  <div class="carousel-inner">
+
+       <div class="carousel-item active" data-interval="4000">
+
+           <img  src="img/cll1.jpg" alt="First slide" class="img-fluid" style="width:100%;height:450px;">
+      
+           
+       </div>
+
+         <div class="carousel-item">
+           <img  src="img/cll2.jpg" alt="First slide" class="img-fluid" style="width:100%;height:450px;">
+         </div>
+        <div class="carousel-item">
+           <img  src="img/pll3.jpg" alt="First slide" class="img-fluid" style="width:100%;height:450px;">
+        </div>        
+
+
+  </div><!-- end  carousel-inner-->
+  <ul class="carousel-indicators">
+     <li data-target="#myslide" data-slide-to="0" class="active"></li>
+     <li data-target="#myslide" data-slide-to="1" class=""></li>
+     <li data-target="#myslide" data-slide-to="2" class=""></li>
+  </ul>
+
+  <a href="#myslide" data-slide="prev" class="carousel-control-prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+  
+
+
+  <a href="#myslide" data-slide="next" class="carousel-control-next">
+       <span class="carousel-control-next-icon"></span>
+  </a>
+</div><!--  carousel slide end-->
+
+
+
+	 <div class="container-fluid" style="background-color: #2a2a6b;">
+		<br><h1 class="text-light"><i>Scary Challenges To Play</i></h1>
+		<div class="container" style="padding-bottom: 30px;padding-top: 10px;">
+			<br><br>
+			<div class="row">
+				<div class="col-sm-4" style="padding-bottom: 15px;">
+					<div class="card shadow">
+						<img src="img/ch1.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h3 class="text-warning text-center">Bloody Mary</h3>
+							<p>This is one of the most popular scary games, you’ve probably played it at a slumber party at one point in your life. Simply go into the bathroom with the lights off and the door closed. If possible, you can have a single candle burning.</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh1">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4" style="padding-bottom: 15px;">
+					<div class="card shadow">
+						<img src="img/ch2.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h3 class="text-warning text-center">The Pencil Game</h3>
+							<p>It's like a Magic 8 Ball, but specifically for a ghost kid named Charlie. All you need is a sheet of paper and two pencils. Draw a giant X on the paper, and label two of the quadrants "no" and the other two "yes." Now, place the pencils over the paper, crossing</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh2">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card shadow">
+						<img src="img/ch3.jpg" class="img-fluid card-img-top" style="height:259px;">
+						<div class="card-body">
+							<h3 class="text-warning text-center">Baby Blue Scary Game</h3>
+							<p>It's been called a companion piece to Bloody Mary, except this version has a baby. Lock yourself inside a pitch-black bathroom, and fold your arms like you might be cradling a tiny baby—an infant that just so happens to be a demon spawn!</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh3">Read More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-sm-4" style="padding-bottom: 15px;">
+					<div class="card shadow">
+						<img src="img/ch4.jpg" class="img-fluid card-img-top" style="height:259px;">
+						<div class="card-body">
+							<h3 class="text-warning text-center">Ouija Board</h3>
+							<p>Yes, one of the oldest scary games out there. A perfect spooky evening for anyone who doesn't just want to talk to ghosts but also get some advice. It's kind of like "Dear Abby" but with dead people. The Ouija is a board covered in letters</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh4">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4" style="padding-bottom: 15px;">
+					<div class="card shadow">
+						<img src="img/ch5.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h3 class="text-warning text-center">The Closet Game</h3>
+							<p>If you're going to have a terrifying encounter with a demon, it might as well be in a dark closet, right? If that's not your idea of a good time, this might not be the evening activity for you. But if you're up for a risk—and summoning a demon</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh5">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card shadow">
+						<img src="img/ch6.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h3 class="text-warning text-center">Hide-and-seek Alone</h3>
+							<p>How in the world can you play hide and seek without anybody else? Simple! Just find yourself a creepy doll and summon a ghost to inhabit it so it chases after you. Fun, right? Oh, and there's a catch. When the possessed doll is "it," they're not</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh6">Read More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-sm-4" style="padding-bottom: 15px;">
+					<div class="card shadow">
+						<img src="img/ch7.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h3 class="text-warning text-center">Elevator To Another World</h3>
+							<p>Can an elevator take you directly to the afterlife? Maybe so, and it'd certainly be easier on the calves than the "Stairway to Heaven" that Led Zeppelin sang about. But to get there, you have to be very specific with which floors you travel to first.</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh7">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4" style="padding-bottom: 15px;">
+					<div class="card shadow">
+						<img src="img/ch8.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h3 class="text-warning text-center">The Three Kings Horror Ritual</h3>
+							<p>The mirror game to end all mirror scary games, it became a sensation online, with Reddit users sharing stories about their experiences. The rules are extremely specific, and cannot be done out of order or with anything less than to-a-tee precision.</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh8">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card shadow">
+						<img src="img/ch9.jpg" class="img-fluid card-img-top" style="height:259px;">
+						<div class="card-body">
+							<h3 class="text-warning text-center">The Ghost Paper Challenge</h3>
+							<p>Let's face it, ghosts have a lot of free time on their hands. There's not much to do but wander around the attic and feel lonely. So reaching out to them with questions is always a nice gesture. Also, it has the added bonus of being bone-chillingly</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh9">Read More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-sm-4" style="padding-bottom: 15px;">
+					<div class="card shadow">
+						<img src="img/chhh10.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h3 class="text-warning text-center">Dry Bones</h3>
+							<p>Hide-and-seek is so much more fun if you're playing with a demon—and it's infinitely more fun if winning means your wildest dreams will come true. That's the theory behind this macabre version of the childhood classic. Dry Bones is a demon</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh10">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4" style="padding-bottom: 15px;">
+					<div class="card shadow">
+						<img src="img/ch11.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h3 class="text-warning text-center">Midnight Game</h3>
+							<p>Okay, we'll be honest, everything about this game is downright freaky. It's apparently based on an old Pagan ritual that was used to punish lawbreakers. Now, the truthfulness of that tale is wishy-washy, but, no matter what, it definitely sounds</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh11">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card shadow">
+						<img src="img/ch12.jpg" class="img-fluid card-img-top">
+						<div class="card-body">
+							<h3 class="text-warning text-center">Candyman</h3>
+							<p>We don't know who this "Candyman" is supposed to be exactly, but he doesn't sound friendly. The game is played much like Bloody Mary: you're in a closet, the lights are out, and you say the name of the person (or thing) you're trying to summon.</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chh12">Read More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<div>
+		<div class="modal fade" id="chh1">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">Bloody Mary</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>This is one of the most popular scary games, you’ve probably played it at a slumber party at one point in your life. Simply go into the bathroom with the lights off and the door closed. If possible, you can have a single candle burning. Face the mirror and say “BLOOOOOODY MARRRRY” three times and then look in the mirror. According to the urban legend, you may see Bloody Mary in the mirror. She may scratch your face, arms, or back. Or, worse, Bloody Mary could pull you into the mirror with your and you will be stuck in there forever.</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+		<div class="modal fade" id="chh2">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">The Pencil Game</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>It's like a Magic 8 Ball, but specifically for a ghost kid named Charlie. All you need is a sheet of paper and two pencils. Draw a giant X on the paper, and label two of the quadrants "no" and the other two "yes." Now, place the pencils over the paper, crossing them in the middle so they create four separate boxes with four different answers. Now it's time to ask questions of Charlie, the (hopefully friendly) ghost who might be lurking nearby.
+
+Begin by asking aloud the following question: "Charlie, Charlie, are you here?" If one of the pencils rolls towards yes, then you're officially in the company of a bona fide poltergeist. This game was a viral sensation online a few years ago, and a few people were insisting at the time that Charlie is a Mexican demon. We're not sure if that's true, or even if a ghost of any nationality is interested in visiting your home and answering yes-or-no questions with a pencil. But if it's true, be prepared to be amazed.</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+		<div class="modal fade" id="chh3">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">Baby Blue Scary Game</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>It's been called a companion piece to Bloody Mary, except this version has a baby. Lock yourself inside a pitch-black bathroom, and fold your arms like you might be cradling a tiny baby—an infant that just so happens to be a demon spawn! Repeat the words "Baby Blue" exactly thirteen times. At that point, you should feel the emptiness in your arms start to take shape, and it'll feel like you're holding an actual baby. Keep saying "Baby Blue" and it'll start to grow and squirm, clawing at your arms and possibly even crying for its mother.
+
+Glance up at the mirror and you'll see the reflection of a hideous woman looking back at you, snarling with evil bloodshot eyes that seem intent on killing you where you stand. Some people who've played this game swear that the reflection screams, "Give me back my baby!" This is when it's time to dispose of the baby—some suggest by dropping it in the toilet—and getting the heck out of the bathroom. Hold onto that baby too long, and the angry demon mom will have her revenge on you. How, nobody really knows. The only people foolish enough not to drop a demon-baby when its mom shows up haven't been heard from ever again.</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+
+		<div class="modal fade" id="chh4">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">Ouija Board</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>Yes, one of the oldest scary games out there. A perfect spooky evening for anyone who doesn't just want to talk to ghosts but also get some advice. It's kind of like "Dear Abby" but with dead people. The Ouija is a board covered in letters and numbers, and a clear planchette or "pointer"—a small piece of wood or metal—that's used to spell out messages. But the trick is this: it's not you doing the spelling.
+
+Two players put their fingers on the planchette and then start asking questions to no one in particular. If a nearby spirit hears you and feels like responding, your hands will mysteriously gravitate across the board until an answer appears. It sounds innocuous enough—the game can't be that bad if you can buy it at a toy store—but there are some crazy stories out there, and they're not from giggly teenagers trying to freak each other out on a weekend sleepover. They're from sane, entirely believable adults who used a Ouija board and ended up with way more than they bargained for.</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+
+		<div class="modal fade" id="chh5">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">The Closet Game</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>If you're going to have a terrifying encounter with a demon, it might as well be in a dark closet, right? If that's not your idea of a good time, this might not be the evening activity for you. But if you're up for a risk—and summoning a demon for a closet chat is nothing if not a risk—here's what you need to know: At or around midnight, step into a dark closet and close the door. Wait for two minutes and then hold out an (unlit) match while chanting, "Show me the light or leave me in darkness." If you hear faint whispering behind you, light the match right away.
+
+Don't let it go out. If you do, that demon will likely grab you and take you with him to whatever dark and gloomy underworld it calls home. As long as the match is lit, you're protected. Listen as long as you like to its whispered, menacing groans, and when you're ready, slowly reach for the door and, without letting the match go out, leave the closet.</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+
+		<div class="modal fade" id="chh6">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">Hide-and-seek Alone</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>How in the world can you play hide and seek without anybody else? Simple! Just find yourself a creepy doll and summon a ghost to inhabit it so it chases after you. Fun, right? Oh, and there's a catch. When the possessed doll is "it," they're not just trying to tag you. The doll will actually be intent on stabbing you instead.
+
+Yep, that's the story. Maybe it's all in your imagination and there's not really a doll with demon eyes wandering through your house with a kitchen knife, looking to slice into you when you least expect it. But you better stay in that closet for a few more hours just to be safe!
+
+</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+
+		<div class="modal fade" id="chh7">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">Elevator To Another World</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>Can an elevator take you directly to the afterlife? Maybe so, and it'd certainly be easier on the calves than the "Stairway to Heaven" that Led Zeppelin sang about. But to get there, you have to be very specific with which floors you travel to first. Begin by finding a building with at least ten floors and an elevator. That's the easy part (for urban dwellers, at least). Get in the elevator, make sure you're alone, and press the button for the fourth floor.
+
+When you get there, don't get out. Instead, press the button for the second floor. From there, take the elevator to the sixth floor, and then back to the second floor, and then to the tenth floor, and finally to the fifth floor. Allegedly, once you get to the fifth floor, a mysterious young woman will step inside. Don't look at her—and for the love of al that is good, do not say anything at all to her. As some fans of this mystical game have warned, "She is not what she seems." Instead, just stare straight ahead and wait to see what happens next.
+
+If she takes you to the tenth floor, don't get out. You'll be stuck in the Otherworld forever. Just wait until the elevator eventually makes its way back to the first floor. Then get out and run the heck out of the building. How do you know you actually rode an elevator with a ghost? You may never know, other than the chill that ran down your spine when a person—a possibly dead person—stood next to you in an elevator and you waited, your lips trembling, to see what might happen next. Yes, this is one of the freakiest scary games.
+
+</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+
+		<div class="modal fade" id="chh8">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">The Three Kings Horror Ritual</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>The mirror game to end all mirror scary games, it became a sensation online, with Reddit users sharing stories about their experiences. The rules are extremely specific, and cannot be done out of order or with anything less than to-a-tee precision.
+
+
+You begin with a large and empty room, ideally without windows. Starting at just before midnight, put a chair (that's the King's throne) in the center of the room, facing north, and two other chairs—the Queen and Joker chairs, respectively—facing the King's throne. Then, place two large mirrors on both the Queen and Joker chairs, facing each other (and you). Finally, plant a fan pointed behind the throne, and have it blow a gentle breeze.
+
+The ritual begins at exactly 3:33 a.m., with you sitting on the throne while holding a candle. Don't look directly into the mirror, but in your peripheral vision, you should see, well, something. As one Reddit user reported, "I started hearing things around me in the room, breathing, ticking, a knock here and there," he said. "I felt like the one on my left was trying to like…lure me from my chair, it wanted to show me things." E-gads! Try this one at your own risk, but if you're up for a seriously freaky evening, this will do the job.
+</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+
+		<div class="modal fade" id="chh9">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">The Ghost Paper Challenge</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>Let's face it, ghosts have a lot of free time on their hands. There's not much to do but wander around the attic and feel lonely. So reaching out to them with questions is always a nice gesture. Also, it has the added bonus of being bone-chillingly terrifying for us living people. But if you're curious enough to see if any ghosts occupying your home are open to a Q&A, here's one ritual that may help bridge the gap. Start by bringing a candle, a stack of paper, and a pencil to a room with no windows. Wait until exactly 3:00 a.m., then knock on the door three times, each time repeating this phrase: "Spirit of the door, I welcome you; make yourself present and come through."
+
+Using only light from the candle, write your question down on the paper and slip it halfway under the door. If it's pulled out the other side, congratulations, you've got a ghost visitor who wants to talk. You can keep asking questions as long as it keeps taking your hand-written notes from under the door. But when it stops, as the Ghost Machine website warns, that's when it's time to "apologize aloud, thank the spirit for its time, and extinguish the candle." Congrats! You've just freaked yourself out in one of the best scary games.</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+
+		<div class="modal fade" id="chh10">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">Dry Bones</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>Hide-and-seek is so much more fun if you're playing with a demon—and it's infinitely more fun if winning means your wildest dreams will come true. That's the theory behind this macabre version of the childhood classic.
+
+Dry Bones is a demon, and he (we're assuming demons are dudes) loves to play hide and seek. To invite him, go into a dark bathroom just after midnight and strike a match. Close your eyes and imagine your prize—make it something achievable, like a promotion at work or a new can't-keep-your-hands-off-each-other relationship. When you hear moaning, that means Dry Bones has accepted your challenge, and the game is on.
+
+Find a hiding place and wait to see if Dry Bones can find you. You have until 3:00 a.m., at which point you can come out and loudly demand that Dry Bones leaves. But if he figures out where you are before then… Oh. Right. We forgot to mention what's in it for Dry Bones. He's playing for your soul. Just think about that as you're sitting in a closet for three hours and anticipating that, at any moment, a demon could throw open the door and sink its fangs into you and condemn you to an eternity of damnation. Hope you wished for something good!</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+
+		<div class="modal fade" id="chh11">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">Midnight Game</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>Okay, we'll be honest, everything about this game is downright freaky. It's apparently based on an old Pagan ritual that was used to punish lawbreakers. Now, the truthfulness of that tale is wishy-washy, but, no matter what, it definitely sounds like a more terrifying punishment than being sent to prison.
+
+So here's what's involved: You write your full name—yes, including your middle name—on a piece of paper and place it in front of a wooden door. Then, light a candle and place it on top of the paper. Wait until just before midnight and then knock on the door 22 times, timing it so your final knock happens exactly at the stroke of midnight. Then blow out the candle and open the door.
+
+What happens next in this scariest of scary games? You've just unleashed the Midnight Man into the world, some sort of supernatural creature that's going to be hunting you for the next three and a half hours. Yeah that's right, hunting. You have to walk around your dark house with a candle until 3:33 a.m. (that's when the Midnight Man disappears) and try not to be caught. If your candle blows out, that means it's close. If you can't get it relit, you have to surround yourself with salt. If you don't get the salt shaker in time, the Midnight Man finds you and… well, it's unclear what happens then (we've never met someone who's let that happen), but we sure don't want to find out.</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+
+		<div class="modal fade" id="chh12">
+			<div class="modal-dialog" >
+				<div class="modal-content">
+					<div class="modal-header">
+			            <h5 class="modal-title" id="exampleModalLabel">Candyman</h5>
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	        <span aria-hidden="true">&times;</span>
+				        </button>
+			        </div>
+	 	    	    <div class="modal-body">
+						<p>We don't know who this "Candyman" is supposed to be exactly, but he doesn't sound friendly. The game is played much like Bloody Mary: you're in a closet, the lights are out, and you say the name of the person (or thing) you're trying to summon. In this case, it's the Candyman. Say his name five times. At that point, you have just seconds to turn on the light before the Candyman kills you in some horrible, unspeakable manner. Why, you might wonder, would anybody summon a demon in a dark bathroom just so he can kill you if you don't find a light switch in the dark fast enough? Good question. We don't know why either, but maybe that's what makes a game like this so thrilling. You know it's probably not real—and if it is, frankly, no sane person would attempt it—but the rush of excitement and fear makes it somehow appealing.</p>   
+					</div>
+		   		</div>
+ 			</div>
+		</div>
+	</div>
+    <div class="container-fluid" style="background-color: pink;">
+	<div class="container" style="padding-bottom: 60px;padding-top: 40px;">
+		<div class="row">
+			<center>
+<h1 class="text-center text-primary"style="font-size: 35px;">Riskiness and Safety Level <b class="text-danger"> While Trying these Spooky Challenges</b><i class="fas fa-user-friends" style="color:blue; font-size: 30px;"></i></h1><br>
+        <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 80%;">80%
+
+    </div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 60%;">60%
+
+    </div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 30%;">30%
+
+    </div>
+  </div>
+  <br>
+<div class="progress">
+  <div class="progress-bar bg-danger" style="width:80%">
+    Risk Factor
+  </div>
+  <div class="progress-bar bg-warning" style="width:60%">
+    Warning!
+  </div>
+  <div class="progress-bar bg-success" style="width:30%">
+    safety Level
+  </div>
+</div>
+   </center>
+
+ </div>
+	</div><!--end container-->
+</div><!--end container fluid-->
+<div class="container-fluid" style="background: brown;">
+	<marquee scrollamount="10" direction="" style="padding-top:10px;font-size: 20px;color:white;font-weight: bolder;"><h3>That is why we are not suggesting you to do these spooky challenges try at your own risk.</h3>
+</marquee>
+</div>
+			
+	 <!-- footer start -->
+  <div class="bg-dark">
+    <div class="container" style="color: white;">
+      <br><br>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/horr_logo1.jpg" style="height: 130px; width: 130px;"><br><br>
+        </div>
+        <div class="col-md-3">
+          <h4 style="font-family: serif;">Get Spooked With us</h4>
+          <h6><a href="challenge.html" style="color: #ff9607;  text-decoration: none;">Scary Challenges</a></h6>
+          <h6><a href="movie.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Movies</a></h6>
+          <h6 style="color: #ff9607;">CONTACT US</h6>
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 30px;"></i></a>&nbsp;&nbsp;
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 30px;"></i></a>&nbsp;&nbsp;
+          <a href="" style = "color: white; text-decoration-color: transparent;"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 30px;"></i></a>
+        </div>
+        <div class="col-md-3">
+          <br>
+          <h6><a href="place.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Places</a></h6>
+          <h6><a href="picture.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Pictures</a></h6>
+          <h6><a href="video.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Scary Videos</a></h6>
+          <h6><a href="share.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">Share Experience</a></h6>
+          <h6><a href="about.html" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">About Us</a></h6>
+        </div>
+        <!-- <div class="col-md-3">
+          <br>
+          <h6><a href="" style="color: #ff9607; text-decoration-color: transparent; text-decoration: none;">ABOUT US</a></h6>
+          
+        </div> -->
+      </div>
+      <h6 style=" font-weight: 200; font-size: 15px;" >All rights reserved@2020</h6><br>
+    </div>
+  </div>
+  <!-- footer end -->
+
+    <div class="container-fluid" style="background-color: #000;"><!--start endfoot-->
+      <div class="row" style="display:block;">
+      <h6 class="text-center endfoot">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG
+<br>COPYRIGHT © 2020</h6>
+      </div>
+    </div><!--end of endfoot-->
+
+
+</body>
+</html>
